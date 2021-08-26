@@ -175,7 +175,7 @@ a {
   line-height: 16px; }
 
 .order-form__button {
-  width: 216px;
+  min-width: 216px;
   height: 48px;
   margin-bottom: 16px;
   padding: 3px 22px;
