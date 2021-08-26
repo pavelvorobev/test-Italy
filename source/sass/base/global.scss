@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 700;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}

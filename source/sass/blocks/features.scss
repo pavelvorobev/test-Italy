@@ -1,0 +1,31 @@
+.features__attention {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  height: 63px;
+  margin-bottom: 16px;
+  background-color: #0c93a4;
+  color: $color-white;
+
+  @include fontMeasure(700, 14px, 16px);
+}
+
+.features__attention span {
+  display: block;
+  text-transform: uppercase;
+}
+
+.features__standards {
+  max-width: 288px;
+  margin: 0 auto;
+  color: #000000;
+  text-align: center;
+
+  @include fontMeasure(400, 14px, 16px);
+}
+
+.features__standards p {
+  margin-bottom: 16px;
+}

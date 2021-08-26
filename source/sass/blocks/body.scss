@@ -1,0 +1,18 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 504px) 1fr;
+  height: 4235px;
+  background: url("../img/italy-map-bg.svg") top 1105px center no-repeat;
+
+  @media (max-width: $width-tablet) {
+    background: none;
+  }
+}
+
+.body__left {
+  background-color: rgba(#029044, 0.6);
+}
+
+.body__right {
+  background-color: rgba(#ff0000, 0.6);
+}

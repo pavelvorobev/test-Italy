@@ -1,0 +1,15 @@
+/* Base */
+@import "./base/variables.scss";
+@import "./base/mixins.scss";
+@import "./base/reset.scss";
+@import "./base/fonts.scss";
+@import "./base/global.scss";
+@import "./base/container.scss";
+@import "./base/visually-hidden.scss";
+
+/* Blocks */
+@import "./blocks/body.scss";
+@import "./blocks/order-form.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/features.scss";
+@import "./blocks/slider.scss";
